@@ -1,30 +1,37 @@
-# Operating System Files
+**/.env.d
+**/.env
 
-*.DS_Store
-Thumbs.db
+**/*.tar
+**/*.tar.gz
+**/*.zip
 
-# Build Files #
+**/target
 
-bin
-target
-build/
-.gradle
+*.class
 
-# Eclipse Project Files #
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
 
-.classpath
-.project
-.settings
+# Package Files #
+*.jar
+*.war
+*.ear
 
-# IntelliJ IDEA Files #
+#Gradle temporary files
+target/
 
-*.iml
-*.ipr
-*.iws
-*.idea
+#Eclipse files
+**/.project
+**/.classpath
+**/.settings/
+blog/bin/
+**/.tern-project
 
-# Test files
+#IntelliJ files
+**/*.iml
+**/.idea
+**/.gradle
 
-dependency-reduced-pom.xml
-vf*
-README.html
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
